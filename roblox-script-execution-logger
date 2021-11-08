@@ -1,0 +1,12 @@
+--I made this because i was bored
+--not a very good idea to use this stuff yk
+syn.request({
+   Url = "WEBHOOK URL",
+   Method = "POST",
+   Headers = {
+       ["Content-Type"] = "application/json"
+   },
+   Body = game:GetService("HttpService"):JSONEncode({
+       ["content"] = " "..game:GetService("Players").LocalPlayer.Name.." Executed the script "
+   })
+})
