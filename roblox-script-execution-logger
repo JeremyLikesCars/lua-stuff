@@ -1,5 +1,7 @@
 --I made this because i was bored
 --not a very good idea to use this stuff yk
+-- works in synapse 
+
 syn.request({
    Url = "WEBHOOK URL",
    Method = "POST",
